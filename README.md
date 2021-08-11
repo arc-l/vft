@@ -25,8 +25,8 @@ git clone https://github.com/arc-l/vft.git
 cd vft
 conda env create -n vft --file env-vft.yml
 conda activate vft
+pip install graphviz
 ```
-If `python-graphviz==0.17` can not be installed, then you may run `pip install graphviz`.
 
 ## Quick Start (Simulation)
 1. Download models (download folders and unzip) from [Google Drive](https://drive.google.com/drive/folders/1mqP3qgUoYHCaHfsW8jkA4kFWKuAnMoQ_?usp=sharing) and put them in `vft` folder
