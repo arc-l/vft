@@ -33,3 +33,6 @@ pip install graphviz
 2. `bash mcts_main_run.sh`
 
 ## More information will be updated later...
+
+## Acknowledgement
+The part of simulation environment was adapted from https://github.com/google-research/ravens
