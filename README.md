@@ -10,11 +10,14 @@
 If you use this code in your research, please cite the paper:
 
 ```
-@article{huang2021visual,
-  title={Visual Foresight Tree for Object Retrieval from Clutter with Nonprehensile Rearrangement},
-  author={Huang, Baichuan and Han, Shuai D and Yu, Jingjin and Boularias, Abdeslam},
-  journal={arXiv preprint arXiv:2105.02857},
-  year={2021}
+@ARTICLE{huang2021visual,
+  author={Huang, Baichuan and Han, Shuai D. and Yu, Jingjin and Boularias, Abdeslam},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Visual Foresight Trees for Object Retrieval From Clutter With Nonprehensile Rearrangement}, 
+  year={2022},
+  volume={7(1)},
+  pages={231-238},
+  doi={10.1109/LRA.2021.3123373}
 }
 ```
 
@@ -31,8 +34,6 @@ pip install graphviz
 ## Quick Start (Simulation)
 1. Download models (download folders and unzip) from [Google Drive](https://drive.google.com/drive/folders/1mqP3qgUoYHCaHfsW8jkA4kFWKuAnMoQ_?usp=sharing) and put them in `vft` folder
 2. `bash mcts_main_run.sh`
-
-## More information will be updated later...
 
 ## Acknowledgement
 The part of simulation environment was adapted from https://github.com/google-research/ravens
