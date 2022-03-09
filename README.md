@@ -1,4 +1,4 @@
-# Visual Foresight Tree for Object Retrieval from Clutter with Nonprehensile Rearrangement
+# Visual Foresight Trees for Object Retrieval from Clutter with Nonprehensile Rearrangement
 
 **Paper:** https://arxiv.org/abs/2105.02857
 
