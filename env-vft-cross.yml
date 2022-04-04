@@ -1,4 +1,4 @@
-name: vfttest
+name: vft
 channels:
   - pytorch
   - defaults
