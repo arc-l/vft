@@ -1,0 +1,28 @@
+name: vfttest
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip
+  - scipy=1.5.2
+  - cudatoolkit=11.0
+  - torchaudio=0.7.2
+  - torchvision=0.8.2
+  - pytorch=1.7.1
+  - pandas=1.2.4
+  - black=19.10b0
+  - pip:
+    - imutils==0.5.3
+    - matplotlib==3.3.3
+    - numpy==1.19.4
+    - opencv-python==4.4.0.46
+    - pybullet==3.0.7
+    - pycocotools==2.0.2
+    - shapely==1.7.1
+    - tensorboard==2.4.1
+    - tensorboard-plugin-wit==1.8.0
+    - termcolor==1.1.0
+    - tqdm==4.57.0
+    - graphviz==0.16
+    - memory-profiler==0.58.0
