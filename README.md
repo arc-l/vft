@@ -35,5 +35,8 @@ pip install graphviz
 1. Download models (download folders and unzip) from [Google Drive](https://drive.google.com/drive/folders/1mqP3qgUoYHCaHfsW8jkA4kFWKuAnMoQ_?usp=sharing) and put them in `vft` folder
 2. `bash mcts_main_run.sh`
 
+# Training networks
+This paper shares many common code to https://github.com/arc-l/dipn. Except the environment was changed from CoppeliaSim (V-REP) to PyBullet.
+
 ## Acknowledgement
 The part of simulation environment was adapted from https://github.com/google-research/ravens
