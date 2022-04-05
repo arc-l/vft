@@ -42,8 +42,16 @@ conda activate vft
 1. Download models (download folders and unzip) from [Google Drive](https://drive.google.com/drive/folders/1mqP3qgUoYHCaHfsW8jkA4kFWKuAnMoQ_?usp=sharing) and put them in `vft` folder
 2. `bash mcts_main_run.sh`
 
-# Training networks
+## Train networks
 This paper shares many common code to https://github.com/arc-l/dipn. Except the environment was changed from CoppeliaSim (V-REP) to PyBullet.
+### Train DIPN
+Push dataset (`push-05`) should be downloaded and unzipped from [Google Drive](https://drive.google.com/drive/folders/1mqP3qgUoYHCaHfsW8jkA4kFWKuAnMoQ_?usp=sharing) and put in `vft/logs_push` folder.
+Training code:
+`python train_push_prediction.py --dataset_root 'logs_push/push-05'`
+### Train grasping on target object
+Download `foreground_model-30.pth` from `logs_image` and put in `vft/logs_image`.
+`python collect_train_grasp_data.py --grasp_only --experience_replay --is_grasp_explore --load_snapshot --snapshot_file 'logs_image/foreground_model-30.pth' --save_visualization`
+You could skip this by using pre-trained model from `logs_grasp`. We stop the training after 20000 actions.
 
 ## Acknowledgement
 The part of simulation environment was adapted from https://github.com/google-research/ravens
